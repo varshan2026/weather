@@ -15,4 +15,4 @@ This app provides real-time weather updates, including:
 This project was a great learning experience, and I’m thrilled with the outcome!  
 Feel free to check it out and share your feedback. 🚀💡  
 
-🔗 **Live Demo:** [[Your Deployed Link](https://weather-eosin-two-58.vercel.app/)]  
+🔗 **Live Demo:** [[React Weather App](https://weather-eosin-two-58.vercel.app/)]  
