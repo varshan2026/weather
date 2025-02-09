@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+.weatherapp{
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    position: relative;
+}
+
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.dashboard {
+    background: rgba(100, 100, 100, 0.2); 
+    border-radius: 10px;
+    border: 1px solid rgba(243, 243, 243, 0.81);
+    backdrop-filter: blur(15px) saturate(150%);
+}
+
+
+@media screen and (max-width: 998px) {
+    .dashboard{
+        width: 50%;
+    }
+    .weatherapp{
+        background-position: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .dashboard{
+        width: 100%;
+        border-radius: 0;
+    }
+    .weatherapp{
+        background-position: 50% 50%;
+    }
+}
